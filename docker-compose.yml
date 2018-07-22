@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  muzyk:
+    image: ${DOCKER_REGISTRY}muzyk
+    build:
+      context: .
+      dockerfile: Muzyk\Dockerfile
